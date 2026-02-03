@@ -125,14 +125,16 @@
                     <div class="flex flex-wrap gap-4 text-sm overflow-x-auto pb-2 md:pb-0">
                         <a href="#overview"
                             class="border-transparent text-gray-500 hover:text-cyan-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium whitespace-nowrap">Overview</a>
+                        <a href="#stakeholder-requirements"
+                            class="border-transparent text-gray-500 hover:text-cyan-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium whitespace-nowrap">Requirements</a>
+                        <a href="#january-releases"
+                            class="border-transparent text-gray-500 hover:text-cyan-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium whitespace-nowrap">Releases</a>
+                        <a href="#gap-analysis"
+                            class="border-transparent text-gray-500 hover:text-cyan-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium whitespace-nowrap">Gap Analysis</a>
                         <a href="#timeline"
                             class="border-transparent text-gray-500 hover:text-cyan-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium whitespace-nowrap">Timeline</a>
                         <a href="#tasks"
-                            class="border-cyan-600 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 font-medium whitespace-nowrap">Task
-                            Explorer</a>
-                        <a href="#modules"
-                            class="border-transparent text-gray-500 hover:text-cyan-700 inline-flex items-center px-1 pt-1 border-b-2 font-medium whitespace-nowrap">System
-                            Modules</a>
+                            class="border-cyan-600 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 font-medium whitespace-nowrap">Tasks</a>
                     </div>
                 </div>
 
@@ -228,6 +230,286 @@
                     <p class="text-sm font-semibold text-green-800 mb-2">Delivered Ahead of Schedule:</p>
                     <p class="text-sm text-green-700">AI Chatbots (DB-connected), Advanced Data Analysis, Automated Reminders,
                     Dynamic Dashboards, PM Reports & Checklists, Inventory Stock Reports, and Regional Routing are already live.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stakeholder Requirements Section -->
+        <div id="stakeholder-requirements" class="glass-panel p-4 sm:p-10">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
+                <div>
+                    <h2 class="text-xl md:text-2xl font-bold oip-primary">Stakeholder Requirements</h2>
+                    <p class="text-sm text-gray-600">Mr. Khalid Al-Shamlan - Managing Director Requirements</p>
+                </div>
+                <div class="flex flex-wrap gap-2 text-xs">
+                    <span class="inline-flex items-center gap-1.5 px-2 py-1 bg-green-100 text-green-700 rounded-full">
+                        <span class="w-2 h-2 rounded-full bg-green-500"></span> Completed
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 px-2 py-1 bg-blue-100 text-blue-700 rounded-full">
+                        <span class="w-2 h-2 rounded-full bg-blue-500"></span> In Progress
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 px-2 py-1 bg-amber-100 text-amber-700 rounded-full">
+                        <span class="w-2 h-2 rounded-full bg-amber-500"></span> Planned
+                    </span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Completed Requirements -->
+                <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="w-3 h-3 rounded-full bg-green-500"></span>
+                        <span class="text-xs font-bold text-green-700 uppercase">Completed</span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-green-900">
+                        <li class="flex items-start gap-2"><span class="text-green-600 mt-0.5">&#10003;</span> Top priority SLA cards</li>
+                        <li class="flex items-start gap-2"><span class="text-green-600 mt-0.5">&#10003;</span> Color grading for SLA</li>
+                        <li class="flex items-start gap-2"><span class="text-green-600 mt-0.5">&#10003;</span> Regional drill down</li>
+                        <li class="flex items-start gap-2"><span class="text-green-600 mt-0.5">&#10003;</span> Unknown region flagged for data correction</li>
+                        <li class="flex items-start gap-2"><span class="text-green-600 mt-0.5">&#10003;</span> Average daily tickets in productivity dashboard</li>
+                        <li class="flex items-start gap-2"><span class="text-green-600 mt-0.5">&#10003;</span> Smart Inventory Replenishment Alert</li>
+                        <li class="flex items-start gap-2"><span class="text-green-600 mt-0.5">&#10003;</span> Custody Stock standards (audit details)</li>
+                    </ul>
+                </div>
+
+                <!-- In Progress Requirements -->
+                <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="w-3 h-3 rounded-full bg-blue-500 animate-pulse"></span>
+                        <span class="text-xs font-bold text-blue-700 uppercase">In Progress</span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-blue-900">
+                        <li class="flex items-start gap-2"><span class="text-blue-600 mt-0.5">&#9679;</span> One-way Integration for SLA audit accuracy</li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 mt-0.5">&#9679;</span> Stop Clock for SLA on suspended tickets</li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 mt-0.5">&#9679;</span> Custom Calendars for SLA tracking</li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 mt-0.5">&#9679;</span> SLA representation against ticket</li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 mt-0.5">&#9679;</span> Certification Compliance</li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 mt-0.5">&#9679;</span> Role refinement (Merge Op Manager to Logistics Supervisor)</li>
+                    </ul>
+                </div>
+
+                <!-- Planned Requirements -->
+                <div class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+                        <span class="text-xs font-bold text-amber-700 uppercase">Planned (Phase 6-7)</span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-amber-900">
+                        <li class="flex items-start gap-2"><span class="text-amber-600 mt-0.5">&#9675;</span> Smart Engineer Assignment System</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-600 mt-0.5">&#9675;</span> Geofencing & Attendance of engineers</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-600 mt-0.5">&#9675;</span> One click ticket closure on mobile app</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-600 mt-0.5">&#9675;</span> Push notifications (SLA, WhatsApp)</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-600 mt-0.5">&#9675;</span> Bidding Platform (outsourcing distant tickets)</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-600 mt-0.5">&#9675;</span> Field shadowing</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-600 mt-0.5">&#9675;</span> Mobile devices with data SIMs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- January 2026 Releases -->
+        <div id="january-releases" class="glass-panel p-4 sm:p-10">
+            <h2 class="text-xl md:text-2xl font-bold oip-primary mb-2">January 2026 Releases</h2>
+            <p class="text-sm md:text-base text-gray-600 mb-6">5 production deployments delivering OWS ticketing, PM workflows, inventory management, and SAIB project onboarding.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Release 5: Jan 27 -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-lg border border-green-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Jan 27</span>
+                        <span class="text-xs text-green-700 font-medium">Release 5</span>
+                    </div>
+                    <h4 class="font-semibold text-green-900 mb-2">SAIB Project Launch</h4>
+                    <ul class="space-y-1.5 text-sm text-gray-700">
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> PM report enhancements</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> SAIB project data & configuration</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> New team & center setup</li>
+                    </ul>
+                </div>
+
+                <!-- Release 4: Jan 21 -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-lg border border-green-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Jan 21</span>
+                        <span class="text-xs text-green-700 font-medium">Release 4</span>
+                    </div>
+                    <h4 class="font-semibold text-green-900 mb-2">PM Checklists & Branding</h4>
+                    <ul class="space-y-1.5 text-sm text-gray-700">
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> PM checklist with PDF export</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Updated platform branding</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Ticket template refinements</li>
+                    </ul>
+                </div>
+
+                <!-- Release 3: Jan 16 -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-lg border border-green-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Jan 16</span>
+                        <span class="text-xs text-green-700 font-medium">Release 3</span>
+                    </div>
+                    <h4 class="font-semibold text-green-900 mb-2">Ticketing & Workflow</h4>
+                    <ul class="space-y-1.5 text-sm text-gray-700">
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Suspended ticket tracking & visibility</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Inter-warehouse inventory transfers</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Enhanced stock report filters</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Dynamic workflow permissions</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Supervisor role validation</li>
+                    </ul>
+                </div>
+
+                <!-- Release 2: Jan 11 -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-lg border border-green-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Jan 11</span>
+                        <span class="text-xs text-green-700 font-medium">Release 2</span>
+                    </div>
+                    <h4 class="font-semibold text-green-900 mb-2">Dashboard & Data Setup</h4>
+                    <ul class="space-y-1.5 text-sm text-gray-700">
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Inventory dashboard (stock levels)</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Suspended ticket timer in dashboard</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Project-based data isolation</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> SAIB locations & employees inserted</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Role-based visibility controls</li>
+                    </ul>
+                </div>
+
+                <!-- Release 1: Jan 6 -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 rounded-lg border border-green-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Jan 6</span>
+                        <span class="text-xs text-green-700 font-medium">Release 1</span>
+                    </div>
+                    <h4 class="font-semibold text-green-900 mb-2">Inventory Management</h4>
+                    <ul class="space-y-1.5 text-sm text-gray-700">
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Inventory tracking (serial, barcode)</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Multi-quantity requests</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Out-of-stock request workflow</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Return request status tracking</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500">&#10003;</span> Excel import improvements</li>
+                    </ul>
+                </div>
+
+                <!-- Summary Card -->
+                <div class="bg-gradient-to-r from-cyan-50 to-blue-50 p-4 rounded-lg border border-cyan-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="bg-cyan-600 text-white text-xs font-bold px-3 py-1 rounded-full">Summary</span>
+                        <span class="text-xs text-cyan-700 font-medium">Jan 2026</span>
+                    </div>
+                    <h4 class="font-semibold text-cyan-900 mb-2">Key Deliverables</h4>
+                    <ul class="space-y-1.5 text-sm text-gray-700">
+                        <li class="flex items-start gap-2"><span class="text-cyan-500">&#9679;</span> OWS & PM ticket workflows</li>
+                        <li class="flex items-start gap-2"><span class="text-cyan-500">&#9679;</span> Complete inventory system</li>
+                        <li class="flex items-start gap-2"><span class="text-cyan-500">&#9679;</span> SAIB project onboarding</li>
+                        <li class="flex items-start gap-2"><span class="text-cyan-500">&#9679;</span> Stock reports & dashboards</li>
+                        <li class="flex items-start gap-2"><span class="text-cyan-500">&#9679;</span> Regional team tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gap Analysis Section -->
+        <div id="gap-analysis" class="glass-panel p-4 sm:p-10">
+            <h2 class="text-xl md:text-2xl font-bold oip-primary mb-2">Gap Analysis: OIP vs Current Ebttikar Ticketing System</h2>
+            <p class="text-sm md:text-base text-gray-600 mb-6">Feature comparison identifying capabilities to replicate from the current Ebttikar ticketing system (3rd party).</p>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="text-left py-3 px-4 font-semibold text-gray-700 border-b-2 border-gray-200">Feature</th>
+                            <th class="text-center py-3 px-4 font-semibold text-cyan-700 border-b-2 border-gray-200">OIP (Current)</th>
+                            <th class="text-center py-3 px-4 font-semibold text-orange-700 border-b-2 border-gray-200">Current System</th>
+                            <th class="text-left py-3 px-4 font-semibold text-gray-700 border-b-2 border-gray-200">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-100 bg-green-50/30">
+                            <td class="py-3 px-4 text-gray-800">Dashboard charts</td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600 font-bold">Yes</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full">Available</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">Drill down charts</td>
+                            <td class="py-3 px-4 text-center"><span class="text-amber-600">Partial</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full">Phase 6</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">Multiple tabs view</td>
+                            <td class="py-3 px-4 text-center"><span class="text-red-500">No</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-amber-100 text-amber-700 text-xs px-2 py-1 rounded-full">Phase 6-7</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">Service Order</td>
+                            <td class="py-3 px-4 text-center"><span class="text-red-500">No</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-amber-100 text-amber-700 text-xs px-2 py-1 rounded-full">Phase 6-7</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">Service Request</td>
+                            <td class="py-3 px-4 text-center"><span class="text-red-500">No</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-amber-100 text-amber-700 text-xs px-2 py-1 rounded-full">Phase 6-7</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">SMS and Email Logs</td>
+                            <td class="py-3 px-4 text-center"><span class="text-amber-600">Partial</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full">Phase 5</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">Change Language</td>
+                            <td class="py-3 px-4 text-center"><span class="text-red-500">No</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-amber-100 text-amber-700 text-xs px-2 py-1 rounded-full">Phase 7</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100 bg-green-50/30">
+                            <td class="py-3 px-4 text-gray-800">Color Grading for SLA Breach</td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600 font-bold">Yes</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full">Available</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100 bg-green-50/30">
+                            <td class="py-3 px-4 text-gray-800">Export to Excel</td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600 font-bold">Yes</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full">Available</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">Pending tickets on Map by region</td>
+                            <td class="py-3 px-4 text-center"><span class="text-red-500">No</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-amber-100 text-amber-700 text-xs px-2 py-1 rounded-full">Phase 6</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">Mail Integration (Outlook)</td>
+                            <td class="py-3 px-4 text-center"><span class="text-red-500">No</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-amber-100 text-amber-700 text-xs px-2 py-1 rounded-full">Phase 6</span></td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <td class="py-3 px-4 text-gray-800">Response/Resolution time per ticket</td>
+                            <td class="py-3 px-4 text-center"><span class="text-amber-600">Partial</span></td>
+                            <td class="py-3 px-4 text-center"><span class="text-green-600">Yes</span></td>
+                            <td class="py-3 px-4"><span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full">In Progress</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mt-6 bg-orange-50 p-4 rounded-lg border border-orange-200">
+                <p class="text-sm font-semibold text-orange-800 mb-2">Current System Features to Replicate in OIP (Mar 2026):</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-orange-700">
+                    <span>&#8226; Advanced drill-down chart capabilities</span>
+                    <span>&#8226; Multiple browser tabs workflow</span>
+                    <span>&#8226; Service Order & Service Request modules</span>
+                    <span>&#8226; Comprehensive SMS & Email logging</span>
+                    <span>&#8226; Arabic language support</span>
+                    <span>&#8226; Map-based ticket visualization</span>
+                    <span>&#8226; Outlook email integration</span>
+                    <span>&#8226; Per-ticket SLA countdown display</span>
                 </div>
             </div>
         </div>
@@ -423,12 +705,12 @@
                                 <span class="bg-purple-500 text-white text-xs font-bold px-2 py-0.5 rounded">6</span>
                             </td>
                             <td class="py-4 px-4">
-                                <p class="font-medium text-gray-900">Advanced Analytics & Integrations</p>
-                                <p class="text-xs text-gray-500 mt-0.5">KPI & Dynamic Dashboards, Knowledge Base, API Hub</p>
-                                <p class="text-xs text-purple-600 mt-1 font-medium">Upcoming</p>
+                                <p class="font-medium text-gray-900">Advanced Analytics & Gap Features</p>
+                                <p class="text-xs text-gray-500 mt-0.5">KPI Dashboards, Knowledge Base, Map View, Outlook, SMS/Email Logs</p>
+                                <p class="text-xs text-purple-600 mt-1 font-medium">Upcoming - Includes Third-Party Gap Features</p>
                             </td>
                             <td class="py-4 px-4 text-gray-600 hidden sm:table-cell">
-                                <span class="text-xs">Week 12–14</span>
+                                <span class="text-xs">Week 14–16</span>
                                 <p class="text-xs text-gray-400">Feb 15 – Mar 1</p>
                             </td>
                             <td class="py-4 px-4 text-center text-gray-600">2 wk</td>
@@ -447,12 +729,12 @@
                                 <span class="bg-orange-500 text-white text-xs font-bold px-2 py-0.5 rounded">7</span>
                             </td>
                             <td class="py-4 px-4">
-                                <p class="font-medium text-gray-900">Mobile, Automation & Final UAT</p>
-                                <p class="text-xs text-gray-500 mt-0.5">iOS/Android Apps, WebSocket, User Testing</p>
-                                <p class="text-xs text-orange-600 mt-1 font-medium">Upcoming</p>
+                                <p class="font-medium text-gray-900">Mobile, Gap & MD Requirements</p>
+                                <p class="text-xs text-gray-500 mt-0.5">iOS/Android, Arabic, Service Order, Smart Assignment, Geofencing</p>
+                                <p class="text-xs text-orange-600 mt-1 font-medium">Upcoming - Includes MD & Third-Party Requirements</p>
                             </td>
                             <td class="py-4 px-4 text-gray-600 hidden sm:table-cell">
-                                <span class="text-xs">Week 14–17</span>
+                                <span class="text-xs">Week 16–19</span>
                                 <p class="text-xs text-gray-400">Mar 1 – Mar 15</p>
                             </td>
                             <td class="py-4 px-4 text-center text-gray-600">2 wk</td>
@@ -721,16 +1003,16 @@
                     <div class="bg-purple-50 border border-purple-100 rounded-lg p-4 flex items-center gap-4">
                         <div class="bg-purple-300 rounded-full h-10 w-10 flex items-center justify-center text-purple-700 font-bold flex-shrink-0">6</div>
                         <div>
-                            <h4 class="font-bold text-purple-900">Phase 6: Advanced Analytics - UPCOMING</h4>
-                            <p class="text-sm text-purple-700">KPI dashboards, knowledge base, and API integration hub scheduled for Feb 15 - Mar 1.</p>
+                            <h4 class="font-bold text-purple-900">Phase 6: Advanced Analytics & Gap Features - UPCOMING</h4>
+                            <p class="text-sm text-purple-700">KPI dashboards, knowledge base, API hub + Third-party features: Map view, Outlook integration, SMS/Email logs. Feb 15 - Mar 1.</p>
                         </div>
                     </div>
 
                     <div class="bg-orange-50 border border-orange-100 rounded-lg p-4 flex items-center gap-4">
                         <div class="bg-orange-300 rounded-full h-10 w-10 flex items-center justify-center text-orange-700 font-bold flex-shrink-0">7</div>
                         <div>
-                            <h4 class="font-bold text-orange-900">Phase 7: Mobile & Final UAT - UPCOMING</h4>
-                            <p class="text-sm text-orange-700">Native iOS/Android apps with offline capabilities. Final UAT with SAB, SAIB, and PM tickets. Requires Mobile Developer.</p>
+                            <h4 class="font-bold text-orange-900">Phase 7: Mobile, Gap & MD Requirements - UPCOMING</h4>
+                            <p class="text-sm text-orange-700">iOS/Android apps + Gap: Arabic, Service Order/Request + MD: Smart Assignment, Geofencing, Bidding. Requires Mobile Developer.</p>
                         </div>
                     </div>
                 </div>
@@ -947,9 +1229,14 @@
                             "Knowledge base where engineers document problems and solutions",
                             "Advanced data analysis capabilities",
                             "GPRS-based resource tracking",
-                            "Comprehensive API integration hub for third-party systems"
+                            "Comprehensive API integration hub for third-party systems",
+                            "[Current System] Advanced drill-down charts with multi-level exploration",
+                            "[Current System] Map-based ticket visualization by region",
+                            "[Current System] Outlook mail integration",
+                            "[Current System] SMS & Email communication logs",
+                            "[Current System] Per-ticket SLA countdown display"
                         ],
-                        demo: "Dynamic KPI creation → Drag & drop dashboard design → Engineer ranking → SLA breach analysis → Quality metrics → API integrations"
+                        demo: "Dynamic KPI creation → Drag & drop dashboard design → Engineer ranking → SLA breach analysis → Quality metrics → Map view → API integrations"
                     },
                     tasks: [
                         { id: "ADV-01", title: "Dynamic Dashboard Creation", cat: "ANALYTICS", desc: "Dynamic dashboard creation structure with customizable layouts and widgets." },
@@ -963,7 +1250,12 @@
                         { id: "ADV-09", title: "Knowledge Base", cat: "KB", desc: "System for engineers to document problems and solutions with searchable repository." },
                         { id: "ADV-10", title: "Advanced Data Analysis", cat: "ANALYTICS", desc: "Deep data analysis capabilities with trend identification and forecasting." },
                         { id: "ADV-11", title: "GPRS Resource Tracking", cat: "TRACK", desc: "GPS-based resource tracking for field engineers and mobile workforce." },
-                        { id: "ADV-12", title: "API Integration Hub", cat: "INT", desc: "Comprehensive API hub for third-party system integrations. Note: Requires integration details." }
+                        { id: "ADV-12", title: "API Integration Hub", cat: "INT", desc: "Comprehensive API hub for third-party system integrations. Note: Requires integration details." },
+                        { id: "GAP-01", title: "Advanced Drill-Down Charts", cat: "ANALYTICS", desc: "Current Ebttikar System: Interactive drill-down chart capabilities with multi-level data exploration." },
+                        { id: "GAP-02", title: "Map-Based Ticket View", cat: "OPS", desc: "Current Ebttikar System: Pending tickets displayed on map by region for geographic visibility." },
+                        { id: "GAP-03", title: "Outlook Mail Integration", cat: "INT", desc: "Current Ebttikar System: Direct integration with Microsoft Outlook for email-based ticket management." },
+                        { id: "GAP-04", title: "SMS & Email Logs", cat: "INT", desc: "Current Ebttikar System: Comprehensive logging of all SMS and email communications." },
+                        { id: "GAP-05", title: "Per-Ticket SLA Countdown", cat: "SLA", desc: "Current Ebttikar System: Response and resolution target time remaining displayed per ticket view." }
                     ]
                 },
                 {
@@ -978,23 +1270,38 @@
                             "Native iOS and Android applications",
                             "Mobile field application with offline capabilities",
                             "Mobile PM workflows with one-click closure",
-                            "Push notifications for SLA alerts and actions",
+                            "Push notifications for SLA alerts and actions (WhatsApp)",
                             "Proactive maintenance scheduling and optimization",
                             "WebSocket implementation for real-time updates",
                             "Final UAT with SAB, SAIB, PM tickets & sub-projects",
-                            "Production hardening and sign-off"
+                            "Production hardening and sign-off",
+                            "[Current System] Multi-tab browser view with data persistence",
+                            "[Current System] Service Order & Service Request modules",
+                            "[Current System] Arabic language support with RTL",
+                            "[MD] Smart Engineer Assignment System",
+                            "[MD] Geofencing & Attendance tracking",
+                            "[MD] Bidding Platform for distant tickets",
+                            "[MD] Field Shadowing for training"
                         ],
-                        demo: "Mobile workflow: Offline ticket creation → Sync when online → PM checklist completion → Push notifications → Production sign-off"
+                        demo: "Mobile workflow: Offline ticket creation → Sync when online → PM checklist → Push notifications → Arabic UI → Smart assignment → Production sign-off"
                     },
                     tasks: [
                         { id: "MOB-01", title: "Native iOS App", cat: "MOBILE", desc: "Native iOS application with full feature parity. Note: Requires Mobile Developer." },
                         { id: "MOB-02", title: "Native Android App", cat: "MOBILE", desc: "Native Android application with full feature parity. Note: Requires Mobile Developer." },
                         { id: "MOB-03", title: "Offline Capabilities", cat: "MOBILE", desc: "Mobile field application with offline mode and background sync." },
                         { id: "MOB-04", title: "Mobile PM Workflows", cat: "MOBILE", desc: "Mobile PM ticket workflows with one-click PM & TR closure." },
-                        { id: "MOB-05", title: "Push Notifications", cat: "MOBILE", desc: "Push notifications for SLA alerts and action items." },
+                        { id: "MOB-05", title: "Push Notifications", cat: "MOBILE", desc: "Push notifications for SLA alerts and action items (WhatsApp integration)." },
                         { id: "OPS-01", title: "Proactive Maintenance", cat: "OPS", desc: "Scheduling and optimization for proactive maintenance workflows." },
                         { id: "RT-01", title: "WebSocket Implementation", cat: "INT", desc: "Real-time collaborative updates using WebSocket for live data sync." },
-                        { id: "UAT-03", title: "Final UAT & Sign-off", cat: "UAT", desc: "Final user acceptance testing with SAB, SAIB, PM tickets, sub-projects, and production hardening." }
+                        { id: "UAT-03", title: "Final UAT & Sign-off", cat: "UAT", desc: "Final user acceptance testing with SAB, SAIB, PM tickets, sub-projects, and production hardening." },
+                        { id: "GAP-06", title: "Multi-Tab Browser View", cat: "UX", desc: "Current Ebttikar System: Support for multiple browser tabs workflow with data persistence." },
+                        { id: "GAP-07", title: "Service Order Module", cat: "TICKET", desc: "Current Ebttikar System: Dedicated service order management separate from tickets." },
+                        { id: "GAP-08", title: "Service Request Module", cat: "TICKET", desc: "Current Ebttikar System: Service request handling with separate workflow from tickets." },
+                        { id: "GAP-09", title: "Arabic Language Support", cat: "UI", desc: "Current Ebttikar System: Full Arabic language localization with RTL support." },
+                        { id: "KAS-01", title: "Smart Engineer Assignment", cat: "AI", desc: "MD Requirement: Intelligent engineer assignment based on proximity, skills, and workload." },
+                        { id: "KAS-02", title: "Geofencing & Attendance", cat: "TRACK", desc: "MD Requirement: Engineer location tracking with geofencing for site attendance validation." },
+                        { id: "KAS-03", title: "Bidding Platform", cat: "OPS", desc: "MD Requirement: Platform for outsourcing distant tickets to third-party vendors." },
+                        { id: "KAS-04", title: "Field Shadowing", cat: "TEAM", desc: "MD Requirement: Training module for junior engineers to shadow senior field staff." }
                     ]
                 }
             ]
@@ -1103,7 +1410,8 @@
                 'ADMIN': 'slate', 'TICKET': 'orange', 'WF': 'purple', 'UX': 'pink',
                 'INV': 'amber', 'AI': 'violet', 'COLLAB': 'rose', 'KB': 'lime',
                 'TRACK': 'sky', 'INT': 'fuchsia', 'MOBILE': 'red', 'IOT': 'green', 'PERM': 'teal',
-                'OWS': 'sky', 'UI': 'pink', 'PM': 'teal', 'UAT': 'emerald'
+                'OWS': 'sky', 'UI': 'pink', 'PM': 'teal', 'UAT': 'emerald',
+                'GAP': 'orange', 'KAS': 'cyan'
             };
             return map[cat] || 'gray';
         }
@@ -1170,9 +1478,9 @@
             new Chart(distCtx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Dashboards & Team', 'Ticket, Inventory & PM', 'AI & Intelligence', 'Collaboration & UAT', 'Analytics & API', 'Mobile & Automation'],
+                    labels: ['Dashboards & Team', 'Ticket, Inventory & PM', 'AI & Intelligence', 'Collaboration & UAT', 'Analytics, API & Gap', 'Mobile, Gap & MD Reqs'],
                     datasets: [{
-                        data: [18, 36, 6, 7, 12, 8],
+                        data: [18, 36, 6, 7, 17, 16],
                         backgroundColor: [
                             'rgba(8, 145, 178, 0.85)',
                             'rgba(6, 182, 212, 0.85)',
